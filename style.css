@@ -1,4 +1,4 @@
-/* CSS Global para todas as páginas do portfólio */
+/* CSS Global para todas as páginas do sie */
 
 /* Reset básico */
 * {
@@ -17,9 +17,11 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #333;
+    background-color: #f5a53c;
     color: white;
     padding: 20px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 /* Título no cabeçalho */
@@ -44,14 +46,13 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Efeito ao passar o mouse */
 nav ul li a:hover {
     color: #cccccc;
 }
 
 /* Seções principais */
 section {
-    background-color: white;
+    background-color: #f3e9dc;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
@@ -59,13 +60,13 @@ section {
 
 /* Títulos das seções */
 section h2 {
-    color: #333399;
+    color: #f7900a;
     margin-bottom: 10px;
 }
 
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: #f5a53c;
     color: white;
     text-align: center;
     padding: 10px;
@@ -92,7 +93,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #333399;
+    background-color: #f7900a;
     color: white;
     border: none;
     padding: 10px 20px;
