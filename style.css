@@ -9,6 +9,7 @@
 
 img {
   border-radius: 25px;
+  transition: transform 0.5s ease;
 }
 
 img:hover{
@@ -54,10 +55,13 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    display: inline-block; /* lembrete: transform não pega bem em texto solto, tem que criar bloco*/
+    transition: transform 0,3s ease;
 }
 
 nav ul li a:hover {
     color: #cccccc;
+    transform: scale(1.3)
 }
 
 /* Seções principais */
