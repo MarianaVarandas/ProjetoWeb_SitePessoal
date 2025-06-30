@@ -5,6 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*arredondando bordas da foto*/
+
+img {
+  border-radius: 25px;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
 
 /* Corpo da página */
 body {
@@ -29,6 +39,7 @@ header h1 {
 }
 
 /* Menu de navegação */
+
 nav ul {
     list-style: none;
     margin-top: 10px;
