@@ -120,3 +120,58 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #5555cc;
 }
+/* adaptando a página para celular */
+
+@media screen and (max-width: 600px) {
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  /* Menu em coluna, ocupando a largura total */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    transform: none; /* para evitar zoom exagerado ao toque */
+  }
+
+  /* Redução de padding e margens das seções */
+  section {
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  /* Ajusta o tamanho da foto */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Ajuste no formulário */
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    font-size: 16px;
+  }
+
+  form input[type="submit"] {
+    width: 100%;
+  }
+
+  /* Reduz padding do cabeçalho e rodapé pra melhor visibilidade*/
+  header,
+  footer {
+    padding: 10px;
+  }
+}
