@@ -11,7 +11,7 @@ Este repositório contém o **primeiro site que desenvolvi em HTML e CSS**, como
 
 - Foi minha **primeira experiência prática** construindo uma página web do zero.  
 - O site foi criado **diretamente em código**, sem uso prévio de ferramentas de design.
-- O objetivo principal foi aprender a estruturar uma página e aplicar estilos básicos, colocando em prática os conceitos introdutórios de **HTML** e **CSS**.  
+- O objetivo principal foi aprender a estruturar uma página e aplicar estilos básicos, colocando em prática os conceitos introdutórios de **HTML** e **CSS**, além de ganhar familiaridade com o github pages.
 
 ---
 
