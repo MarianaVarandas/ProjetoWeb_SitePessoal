@@ -3,10 +3,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* impede que os elementos excedam a porção de área visível (viewport) - garante que sempre esteja dentro do elemento pai*/
 }
-/*arredondando bordas da foto*/
 
+/*arredondando bordas da foto*/
 img {
   border-radius: 25px;
   transition: transform 0.5s ease;
@@ -19,6 +19,7 @@ img:hover{
 
 /* Corpo da página */
 body {
+    height: 100vh; /*100% do viewport height - a altura da tela*/
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333333;
@@ -72,7 +73,56 @@ section {
     border-radius: 8px;
 }
 
+.contato{ 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.contato__formulario{  /*padrão de nomeação: pai__filho*/
+  width: 800px; 
+  margin-left: 0%; 
+} 
+
+.contato__redes{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: auto;
+  height: auto;
+  background-color: #f2f2f2;
+  justify-content: center;     /* centraliza horizontalmente dentro da área direita */
+  align-items: center;         /* centraliza verticalmente dentro da área direita */
+}
+
+.contato__redes__lista {
+    display: flex;           /* organiza os itens em linha */
+    gap: 20px;               /* espaço entre os ícones */
+    list-style: none;        /* remove bolinhas padrão da lista */
+    padding: 0;              /* remove padding padrão */
+    margin: 10px 0 0 0; 
+}
+
+.contato__redes__icones svg{
+  width: 30px;        /* tamanho do ícone */
+  height: 30px;
+  fill: #000;         /* cor do ícone - troque para cor que preferir */
+  transition: fill 0.3s;
+}
+
+
+.contato__redes__icones:hover svg{
+  fill: #f97316; /* cor ao passar o mouse */
+  transform: scale(1.15);
+}
+
+
 /* Títulos das seções */
+section h3{
+    color: #f7900a;
+    margin-bottom: 10px;
+}
+
 section h2 {
     color: #f7900a;
     margin-bottom: 10px;
@@ -93,6 +143,7 @@ footer {
 ul {
     margin-top: 10px;
     padding-left: 20px;
+    list-style: none;
 }
 
 /* Formulário de contato */
