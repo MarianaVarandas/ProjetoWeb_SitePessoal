@@ -211,7 +211,7 @@ form input[type="submit"]:hover {
   }
 
   img:hover{
-    transform: scale(1.2); /* menor aumento no hover pra não exceder o tamanho da tela*/
+    transform: scale(1.05); /* menor aumento no hover pra não exceder o tamanho da tela*/
 }
 
   /* Ajuste no formulário */
