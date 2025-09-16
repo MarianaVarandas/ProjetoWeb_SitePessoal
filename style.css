@@ -208,8 +208,11 @@ form input[type="submit"]:hover {
   img {
     width: 100%;
     height: auto;
-    transform: scale(1.05); /* menor aumento no hover pra não exceder o tamanho da tela*/
   }
+
+  img:hover{
+    transform: scale(1.2); /* menor aumento no hover pra não exceder o tamanho da tela*/
+}
 
   /* Ajuste no formulário */
   form input[type="text"],
