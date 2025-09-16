@@ -37,7 +37,8 @@ header {
 
 /* Título no cabeçalho */
 header h1 {
-    font-size: 24px;
+    font-size: 1.5rem; /*para responsividade com navegador, escolhi usar rem. Lembrete: por padrão 1 rem= 
+16 px*/
 }
 
 /* Menu de navegação */
@@ -176,7 +177,7 @@ form input[type="submit"]:hover {
 @media screen and (max-width: 600px) {
 
   header h1 {
-    font-size: 18px;
+    font-size: 1.12rem;
   }
 
   /* Menu em coluna, ocupando a largura total */
@@ -193,7 +194,7 @@ form input[type="submit"]:hover {
   }
 
   nav ul li a {
-    font-size: 18px;
+    font-size: 1.12rem;
     transform: none; /* para evitar zoom exagerado ao toque */
   }
 
@@ -213,7 +214,7 @@ form input[type="submit"]:hover {
   form input[type="text"],
   form input[type="email"],
   form textarea {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   form input[type="submit"] {
